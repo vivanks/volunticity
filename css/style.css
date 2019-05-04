@@ -401,6 +401,7 @@ body.offcanvas {
 
     #show-img{
       background-image: url(../images/img_bg_2.jpeg);
+      background-repeat: no-repeat;
 
       } }
 
