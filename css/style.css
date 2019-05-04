@@ -393,7 +393,17 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 8em; }
+
+    #hide-img{
+      display: none;
+      }
+
+    #show-img{
+      background-image: url(../images/img_bg_2.jpeg);
+
+      } }
+
 
 .about-img,
 .about-img-2,
