@@ -16,18 +16,18 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: darkslategrey; }
+  color: rgb(32,60,86); }
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
 
 a {
-  color: #df744a;
+  color: rgb(225,234,244);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #FFC300;
+    color: white;
     outline: none;
     text-decoration: none !important; }
 
@@ -35,7 +35,7 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: rgb(32,60,86);
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -57,15 +57,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FFC300; }
+  background: #4C86B4; }
 
 ::-moz-selection {
   color: #fff;
-  background: #FFC300; }
+  background: #4C86B4; }
 
 ::selection {
   color: #fff;
-  background: #FFC300; }
+  background: #4C86B4; }
 
 #colorlib-page {
   width: 100%;
@@ -84,7 +84,7 @@ figure {
   left: 0;
   overflow-y: scroll;
   z-index: 1001;
-  background: white;
+  background: rgb(32,60,86);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -114,9 +114,11 @@ figure {
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
-      color: #df744a;
+      color: rgb(84,153,224);
+      background: rgb(230,238,247);
       letter-spacing: 2px;
-      padding-right: .3em; }
+      padding-right: .3em;
+      padding: 1em; }
   #colorlib-aside #colorlib-main-menu ul {
     text-align: center;
     margin: 0;
@@ -133,7 +135,7 @@ figure {
       text-transform: uppercase;
       letter-spacing: 1px; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: darkblue;
+        color: rgb(225,234,244);
         text-decoration: none;
         position: relative;
         padding: 10px 0;
@@ -162,7 +164,7 @@ figure {
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
-          color: black; }
+          color: rgb(230,238,247); }
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -171,7 +173,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
-        color: salmon; }
+        color: rgb(85,168,236); }
         #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
@@ -205,7 +207,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: darkblue;
+          color:rgb(225,234,244);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -429,7 +431,7 @@ body.offcanvas {
     width: 60px;
     height: 4px;
     content: '';
-    background: #df774a; }
+    background: #65ABE6; }
   .colorlib-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
@@ -441,7 +443,7 @@ body.offcanvas {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  color: #999999;
+  color: rgb(32,60,86);
   font-weight: 500;
   letter-spacing: 5px; }
 
@@ -504,7 +506,7 @@ body.offcanvas {
   .steps:hover i {
     color: #FFC300 !important; }
   .steps.active i {
-    color: #df774a !important; }
+    color: rgb(32,60,86) !important; }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0; }
@@ -570,7 +572,7 @@ body.offcanvas {
     width: 90%;
     z-index: 1;
     margin-top: -20px;
-    background: #fafafa;
+    background: rgb(230,238,247);
     padding: .8em .5em; }
     .services-wrap .desc h3 {
       font-weight: 500;
@@ -610,7 +612,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #df774a;
+      color: rgb(84,153,224);
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -1010,20 +1012,21 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: white;
-  color: #df774a;
+  background:rgb(84,153,224);;
+  color: white;
   border-color: white;
    }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #ffc91a !important;
-    border-color: #ffc91a !important; }
+    background: rgb(32,60,86) !important;
+    border-color:rgb(84,153,224); !important;
+    color: rgb(225,234,244) !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #FFC300;
-    border: 2px solid #FFC300; }
+    color: rgb(84,153,224);
+     }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #FFC300;
-      color: #fff; }
+      background: transparent;
+      color: rgb(84,153,224); }
 
 .btn-success {
   background: #5cb85c;
