@@ -519,7 +519,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: rgb(32,60,86);;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -634,7 +634,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #FFC300;
+    color: rgb(84,153,224);
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -658,6 +658,12 @@ body.offcanvas {
   background: #fff;
   margin-bottom: 3em; }
   @media screen and (max-width: 768px) {
+    #chup{
+      display: none;
+    }
+    #colorlib-aside #colorlib-logo a {
+      padding: 0.3em;
+    }
     .blog-entry {
       margin-bottom: 3em; } }
   .blog-entry .blog-img {
